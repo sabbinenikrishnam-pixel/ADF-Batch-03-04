@@ -1,0 +1,25 @@
+{
+	"name": "DS_TARGET_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS_TARGET_CON2",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ADLS_DATASETS"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "con2"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
