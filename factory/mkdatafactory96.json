@@ -1,0 +1,15 @@
+{
+	"name": "mkdatafactory96",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5ccbd580-095b-4607-9921-01b4b2faf9bd",
+		"tenantId": "65ebd34c-9979-442d-ae96-e8d437ac5703"
+	}
+}
